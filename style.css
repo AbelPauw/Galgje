@@ -1,0 +1,199 @@
+.word{
+    display: inline-flex;
+}
+.galg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.structure{
+    display: flex;
+    flex-direction: row;
+}
+.foot{
+    width: 50px;
+    height: 50px;
+    border-top: solid rgb(0, 0, 0) 4px;
+    border-left: solid rgb(0, 0, 0) 4px;
+    rotate: 45deg;
+    margin-right: 204px;
+    margin-top: 3px;
+}
+.no-foot{
+    width: 50px;
+    height: 50px;
+    border-top: solid rgb(255, 255, 255) 4px;
+    border-left: solid rgb(255, 255, 255) 4px;
+    rotate: 45deg;
+    margin-right: 204px;
+    margin-top: 3px;
+}
+.pole{
+    width: 0px;
+    height: 290px;
+    background-color: black;
+    border: 2px solid black;
+    margin-right: -8px;
+}
+.no-pole{
+    width: 0px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: -8px;
+}
+.support{
+    width: 50px;
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    rotate: 135deg;
+    margin-top: 17px;
+}
+.no-support{
+    width: 50px;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    rotate: 135deg;
+    margin-top: 17px;
+}
+.top-bar{
+    width: 159px;
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    margin-right: 49px;
+}
+.no-top-bar{
+    width: 155px;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 49px;
+}
+.rope{
+    width: 0px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.no-rope{
+    width: 0px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+.head{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+}
+.no-head{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    position: relative;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    width: 70px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.no-body{
+    width: 70px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.right-arm{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    rotate: 330deg;
+    margin-left: 12px;
+}
+.no-right-arm{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    rotate: 330deg;
+    margin-left: 12px;
+}
+.left-arm{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    rotate: 30deg;
+    margin-right: 12px;
+}
+.no-left-arm{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    rotate: 30deg;
+    margin-right: 12px;
+
+}
+.legs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-leg{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    rotate: 340deg;
+    margin-left: 5px;
+}
+.no-right-leg{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    rotate: 340deg;
+    margin-left: 5px;
+}
+.left-leg{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    rotate: 20deg;
+    margin-right: 40px;
+}
+.no-left-leg{
+    width: 0px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    rotate: 20deg;
+    margin-right: 40px;
+}
+.hangman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
